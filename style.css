@@ -17,10 +17,10 @@ opacity: 0.5;
 }
 
 article {
-padding:0 1em;
+padding: 0 1em;
 }
 
-section{
+section {
 margin: 1em;
 padding: 1em;
 }
@@ -133,12 +133,7 @@ color: #889499;
 text-decoration: underline;
 }
 
-/* Space between ITS and BINUS */
-.education-item + .education-item {
-margin-top: 3em;
-}
-
-ul.job-description li:before{
+ul.job-description li:before {
 content: "✔";
 padding-right: 0.5em;
 color: #509e98;
