@@ -128,7 +128,7 @@ color: #509e98;
 text-transform: capitalize;
 }
 
-.school {
+.school, .job-title {
 display: flex;
 justify-content: space-between;
 align-items: center;
