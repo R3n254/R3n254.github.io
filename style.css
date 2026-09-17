@@ -34,7 +34,7 @@ padding: 2em;
 text-align: center;
 background-image: url('./img/bg.jpg');
 background-size: cover;
-background-position: fixed;
+background-position: center;
 color: white;
 }
 
@@ -128,9 +128,20 @@ color: #509e98;
 text-transform: capitalize;
 }
 
+.school {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
 .school span, .job-title span {
 color: #889499;
 text-decoration: underline;
+}
+
+/* Space between ITS and BINUS */
+.education-item + .education-item {
+margin-top: 3em;
 }
 
 ul.job-description li:before {
