@@ -143,6 +143,28 @@ text-decoration: underline;
 margin-top: 3em;
 }
 
+.contact-info {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.contact-info a {
+display: flex;
+align-items: center;
+color: white;
+margin: 5px;
+}
+
+.contact-info .fab {
+flex-shrink: 0;
+}
+
+.contact-info span {
+margin-right: 5px;
+}
+
 ul.job-description li:before {
 content: "✔";
 padding-right: 0.5em;
